@@ -121,7 +121,7 @@ const backgroundConfig = Object.assign({}, getBaseConfig(), {
     entry: {
         index: path.resolve(SRC_BACKGROUND, "./index.js"),
         vendor: [...REDUX_PACKAGES, "buttercup"],
-        buttercup: ["@buttercup/ui", "@buttercup/channel-queue", "@buttercup/iconographer"]
+        buttercup: ["@buttercup/channel-queue", "@buttercup/iconographer"]
     },
 
     output: {
